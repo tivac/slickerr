@@ -1,0 +1,28 @@
+{
+  "name": "slickerr",
+  "version": "1.0.0",
+  "description": "torznab proxy",
+  "main": "index.js",
+  "keywords": [
+    "torznab",
+    "rss"
+  ],
+  "author": "Pat Cavit <npm@patcavit.com>",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "got": "^7.0.0",
+    "import-modules": "^1.1.0",
+    "meow": "^3.7.0",
+    "read-pkg-up": "^2.0.0",
+    "spirit": "^0.6.0",
+    "spirit-router": "^0.5.0",
+    "xml": "^1.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "nodemon"
+  }
+}
